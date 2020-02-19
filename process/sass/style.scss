@@ -1,10 +1,17 @@
-@import "variables";
-@import "normalize";
-@import "mixins";
-@import "base";
-@import "interface";
+html {
+  font-size: 62.5%;
+}
 
-@import "modules/backgrounds";
-@import "modules/media";
-@import "modules/tables";
-@import "modules/navigation";
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: 'Helvetica', sans-serif;
+  color: #022933;
+  background-color: #eee8d6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
