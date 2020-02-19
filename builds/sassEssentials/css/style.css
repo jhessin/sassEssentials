@@ -1,14 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Josefin+Slab|Merriweather|Oswald|Roboto+Slab&display=swap");
 html {
   font-size: 62.5%; }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 1.8rem;
-  font-family: 'Helvetica', sans-serif;
+  background-color: #eee8d6;
   color: #022933;
-  background-color: #eee8d6; }
+  font-family: "Merriweather", Helvetica, sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0; }
 
 .container {
-  width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 80%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #d14348;
+  font-family: "Bree Serif", Helvetica, sans-serif; }
