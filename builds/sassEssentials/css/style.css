@@ -328,6 +328,28 @@ h6 {
   color: #d14348;
   font-family: "Bree Serif", Helvetica, sans-serif; }
 
+.btn-default, .btn-hot, .btn-cool {
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-family: "Bree Serif", Helvetica, sans-serif;
+  user-select: none;
+  color: #eee8d6; }
+
+.btn-default {
+  background: #022933; }
+
+.btn-hot {
+  background: #d14348; }
+
+.btn-cool {
+  background: #0076a3; }
+
 .background {
   color: #eee8d6;
   display: table;
