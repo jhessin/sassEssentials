@@ -1,7 +1,7 @@
-@import './variables';
-@import './normalize';
-@import './mixins';
-@import './base';
+@import "./variables";
+@import "./modules/mixins";
+@import "./normalize";
+@import "./base";
 
-@import './modules/backgrounds';
-@import './modules/media';
+@import "./modules/backgrounds";
+@import "./modules/media";
