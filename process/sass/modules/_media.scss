@@ -8,8 +8,16 @@ $color-media-head: $blue;
 
   .item {
     border-top: 1px dotted $color-item-border;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 10px;
+    padding-left: 10px;
+    &:hover {
+      background: $yellow;
+    }
+    &:last-of-type {
+      border-bottom: 1px dotted $color-item-border;
+    }
+    @include clearfix;
   }
 
   .head {
@@ -17,6 +25,9 @@ $color-media-head: $blue;
     font-size: 2rem;
     margin: 0;
     padding: 0;
+    #typography & {
+      color: $red;
+    }
   }
 
   p {
