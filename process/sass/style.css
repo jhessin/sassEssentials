@@ -442,3 +442,39 @@ h6 {
   .media a {
     color: #022933;
     text-decoration: none; }
+
+.table {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 100%; }
+  .table caption {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-bottom: 5px; }
+  .table > thead > tr:hover,
+  .table > tbody > tr:hover,
+  .table > tfoot > tr:hover {
+    background-color: #dfc5b2; }
+  .table > thead > tr:nth-child(even),
+  .table > tbody > tr:nth-child(even),
+  .table > tfoot > tr:nth-child(even) {
+    background-color: rgba(255, 186, 0, 0.2); }
+    .table > thead > tr:nth-child(even):hover,
+    .table > tbody > tr:nth-child(even):hover,
+    .table > tfoot > tr:nth-child(even):hover {
+      background-color: rgba(255, 186, 0, 0.5); }
+  .table > thead > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > th,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > th,
+  .table > tfoot > tr > td {
+    padding: 10px;
+    border-bottom: 1px dotted #0076a3; }
+  .table > thead > tr {
+    background-color: #0076a3;
+    color: #eee8d6; }
+    .table > thead > tr:hover {
+      background-color: #a32d00; }
+    .table > thead > tr > th {
+      border-bottom: 0; }
