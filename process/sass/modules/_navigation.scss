@@ -1,7 +1,3 @@
-header .container {
-  width: 100%;
-}
-
 nav {
   header & {
     background-color: darken($blue, 15%);
@@ -58,7 +54,7 @@ nav {
     min-height: 200px;
     background-color: darken($blue, 15%);
 
-    @include break(0, 500px) {
+    @include break(0, 760px) {
       display: none;
     }
   }

@@ -16,6 +16,8 @@ body {
   width: 80%;
 }
 
+$color-headlines: $blue, $purple, $green, $red, $orange, $yellow;
+
 h1,
 h2,
 h3,
@@ -24,4 +26,10 @@ h5,
 h6 {
   color: $color-headlines;
   font-family: $font-highlight;
+}
+
+@for $item from 1 through length($color-headlines) {
+  h#{$item} {
+    color: nth($color-headlines, $item);
+  }
 }
