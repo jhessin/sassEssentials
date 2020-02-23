@@ -1,3 +1,7 @@
+header .container {
+  width: 100%;
+}
+
 nav {
   header & {
     background-color: darken($blue, 15%);
@@ -5,7 +9,7 @@ nav {
   .branding {
     float: left;
     display: none;
-    @include break(1050px) {
+    @include break(1000px) {
       display: block;
     }
   }
@@ -53,5 +57,9 @@ nav {
     margin-top: 20px;
     min-height: 200px;
     background-color: darken($blue, 15%);
+
+    @include break(0, 500px) {
+      display: none;
+    }
   }
 }

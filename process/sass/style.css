@@ -479,13 +479,16 @@ h6 {
     .table > thead > tr > th {
       border-bottom: 0; }
 
+header .container {
+  width: 100%; }
+
 header nav {
   background-color: #003f57; }
 
 nav .branding {
   float: left;
   display: none; }
-  @media (min-width: 1050px) {
+  @media (min-width: 1000px) {
     nav .branding {
       display: block; } }
 
@@ -526,3 +529,6 @@ footer nav {
   margin-top: 20px;
   min-height: 200px;
   background-color: #003f57; }
+  @media (min-width: 0) and (max-width: 500px) {
+    footer nav {
+      display: none; } }
