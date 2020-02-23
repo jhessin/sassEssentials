@@ -310,7 +310,7 @@ html {
 body {
   background-color: #eee8d6;
   color: #022933;
-  font-family: "Merriweather", Helvetica, sans-serif;
+  font-family: Merriweather, Helvetica, sans-serif;
   font-size: 1.8rem;
   margin: 0;
   padding: 0; }
@@ -369,7 +369,7 @@ h6 {
 
 .grid img {
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
   max-width: 100%; }
 
 .background {
@@ -385,7 +385,7 @@ h6 {
   vertical-align: bottom; }
   .background .container h1 {
     color: #ffba00;
-    font-family: "Merriweather", Helvetica, sans-serif;
+    font-family: Merriweather, Helvetica, sans-serif;
     font-size: 5rem;
     line-height: 105%;
     margin-bottom: 0;
